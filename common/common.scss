@@ -1,11 +1,39 @@
 a {
-  color: #3B98FC;
+  color: #1B79BC;
 
   &:visited {
-    color: #3B98FC;
+    color: #1B79BC;
   }
 
   &:hover {
     text-decoration: underline;
   }
+}
+
+.alert {
+  .alert-info {
+    border: 1px solid #DFDFDF;
+    border-radius: 4px;
+    background-color: #F5F8FC;
+    color: #4A4A4A;
+  }
+}
+
+.badge-wrapper.bullet span.badge-category,
+.topic-list .main-link a.title {
+  color: #4A4A4A;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.topic-list-item {
+  .visited a.title:not(.badge-notification) {
+    color: #9B9B9B;
+  }
+}
+
+.nav-pills > li.active > a, .nav-pills > li > a.active {
+  background-color: #337AB7;
+  border-radius: 2px;
 }
