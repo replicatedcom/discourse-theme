@@ -11,7 +11,7 @@ a {
 }
 
 .alert {
-  .alert-info {
+  &.alert-info {
     border: 1px solid #DFDFDF;
     border-radius: 4px;
     background-color: #F5F8FC;
@@ -19,6 +19,7 @@ a {
   }
 }
 
+.badge-wrapper.bullet,
 .badge-wrapper.bullet span.badge-category,
 .topic-list .main-link a.title {
   color: #4A4A4A;
