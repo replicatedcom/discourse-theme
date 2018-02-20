@@ -34,7 +34,15 @@ a {
   }
 }
 
-.nav-pills > li.active > a, .nav-pills > li > a.active {
-  background-color: #337AB7;
+.nav-pills > li > a {
   border-radius: 2px;
+  color: #4A4A4A;
+
+  &:hover {
+    background-color: #F5F8FC;
+  }
+}
+.nav-pills > li.active > a,
+.nav-pills > li > a.active {
+  background-color: #337AB7;
 }
